@@ -1,0 +1,48 @@
+//Mixnis
+.transition (@transition, @easetrans) {
+    transition: all @transition ease-in-out @easetrans;
+	-webkit-transition: @transition ease-in-out @easetrans;
+	-moz-transition:    @transition ease-in-out @easetrans;
+	-ms-transition:     @transition ease-in-out @easetrans;
+	-o-transition:      @transition ease-in-out @easetrans;
+}
+
+.gradient (@deg:top ,@startColor: #eee, @endColor: white) {
+	background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
+	background: -webkit-linear-gradient(@deg, @startColor, @endColor);
+	background: -moz-linear-gradient(@deg, @startColor, @endColor);
+	background: -ms-linear-gradient(@deg, @startColor, @endColor);
+	background: -o-linear-gradient(@deg, @startColor, @endColor);
+  pointer-events:none;
+}
+.border-radiuses (@topright: 0, @bottomright: 0, @bottomleft: 0, @topleft: 0) {
+	-webkit-border-top-right-radius:    @topright;
+	-webkit-border-bottom-right-radius: @bottomright;
+	-webkit-border-bottom-left-radius:  @bottomleft;
+	-webkit-border-top-left-radius:     @topleft;
+
+	-moz-border-radius-topright:        @topright;
+	-moz-border-radius-bottomright:     @bottomright;
+	-moz-border-radius-bottomleft:      @bottomleft;
+	-moz-border-radius-topleft:         @topleft;
+
+	border-top-right-radius:            @topright;
+	border-bottom-right-radius:         @bottomright;
+	border-bottom-left-radius:          @bottomleft;
+	border-top-left-radius:             @topleft;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}
+
+
+.border-radius (@radius: 5px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}

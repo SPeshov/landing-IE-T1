@@ -1,0 +1,37 @@
+{
+  "name": "test",
+  "description": "Just test project",
+  "main": "",
+  "authors": [
+    "Stojan Peshov"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "angular-resource": "^1.5.8",
+    "components-font-awesome": "^4.6.3",
+    "angular-toastr": "^2.1.1",
+    "angular-loading-bar": "^0.9.0",
+    "angular-ui-select": "^0.19.4",
+    "angular-strap": "^2.3.9",
+    "bootstrap-additions": "^0.3.1",
+    "angular-bootstrap-switch": "^0.5.1",
+    "bootstrap-switch": "^3.3.2",
+    "angular-xeditable": "^0.2.0",
+    "angular-smart-table": "^2.1.8",
+    "ng-backstretch": "^0.1.4-beta",
+    "font-awesome": "fontawesome#^4.6.3",
+    "angular-cookies": "^1.5.8"
+  }
+}
